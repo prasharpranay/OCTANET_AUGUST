@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6796.jpg?w=900&t=st=1686955191~exp=1686955791~hmac=fdc5649fd64145a625af25dcd8d9252432d2cbcb2578c36f331fcbb2ba7ff296');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background: #926239;
+  color: #fff;
+}
+
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+#section-b {
+  padding: 20px;
+  background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-blue-sky-background_74190-13665.jpg?w=900&t=st=1686955425~exp=1686956025~hmac=b7e7e38fdabd4537b5b74bd3d028be6706addb2bfc27d2bb95eebdcbe783d4e5');
+  background-size: cover;
+  background-position: center;
+  color: #926239;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background: #926239;
+  color: #fff;
+}
+
+#section-c .box-2 {
+  background: #f9f9f9;
+}
